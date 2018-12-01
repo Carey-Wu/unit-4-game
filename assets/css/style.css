@@ -5,8 +5,9 @@ body {
     width: 100%;
 }
 
+
 #game-title {
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(207, 217, 226);
     font-weight: bold;
 }
@@ -92,4 +93,14 @@ body {
     height: 130px;
     margin-left: 5px;
     margin-top: 5px;
+}
+
+@font-face {
+    font-family: 'Game of Thrones';
+    src: url('GameofThrones.eot');
+    src: url('GameofThrones.eot?#iefix') format('embedded-opentype'),
+        url('GameofThrones.woff') format('woff'),
+        url('GameofThrones.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
