@@ -75,22 +75,22 @@ $(".options").on("click", function() {
         wins++;
         gameRunning = false;
         $("#wins").text(wins);
+        setTimeout(function() {
+        $("#player-value").text("0")}, 500);
+        console.log(setTimeout);
         newGame();
         console.log(newGame);
-        setTimeout(function() {
-        $("#player-value").text("0")}, 1000);
-        console.log(setTimeout)
       }
   
       else if (counter >= patientNumber) {
         losses++;
         gameRunning = false;
         $("#losses").text(losses);
+        setTimeout(function() {
+        $("#player-value").text("0")}, 500);
+        console.log(setTimeout);
         newGame();
         console.log(newGame);
-        setTimeout(function() {
-        $("#player-value").text("0")}, 1000);
-        console.log(setTimeout)
       }
     }
     console.log(this)
